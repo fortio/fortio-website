@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfortio=self.webpackChunkfortio||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/fortio-website/blog/welcome"},{"title":"Fortio 1.40.1","permalink":"/fortio-website/blog/Fortio-1.40.1"}]}')}}]);

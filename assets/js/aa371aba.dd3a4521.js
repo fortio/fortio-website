@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfortio=self.webpackChunkfortio||[]).push([[84],{1139:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/fortio-website/blog/tags/docusaurus","allTagsPath":"/fortio-website/blog/tags","count":4}')}}]);

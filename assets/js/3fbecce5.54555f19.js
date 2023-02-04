@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfortio=self.webpackChunkfortio||[]).push([[834],{8282:e=>{e.exports=JSON.parse('[{"label":"hello","permalink":"/fortio-website/blog/tags/hello","count":1},{"label":"release","permalink":"/fortio-website/blog/tags/release","count":1}]')}}]);
