@@ -2,40 +2,27 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
-
-```
-$ yarn
-```
-
 ### Local Development
 
+Install deps
 ```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+npm ci
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Start local dev server
+```
+npm start
+```
 
 ### Deployment
 
-Using SSH:
+Main branch uses `.github/workflows/deploy.yml` which then builds the website and pushes this into the [gh-pages](https://github.com/fortio/fortio-website/tree/gh-pages) branch. This branch is then used by Github to publish on https://fortio.github.io/fortio-website/
 
-```
-$ USE_SSH=true yarn deploy
-```
 
-Not using SSH:
+### General tips/info
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+As you can see in `blog` - you can either use a single page or a folder. A folder is recommended when you want to use images and therefore can reference that 'directly' via that folder.
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Versioning is also possible: https://docusaurus.io/docs/versioning but this does add quite some 'overhead' in the logic and might not worth the troubles (at this point).
+
+In general, all information about this setup/features can be found here: https://docusaurus.io/docs
